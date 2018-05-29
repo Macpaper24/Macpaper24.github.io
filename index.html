@@ -1,0 +1,172 @@
+<html>
+<head>
+    <title>if u see this u get candy (unless i forget)</title>
+
+
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Great+Vibes" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+  <script type="text/javascript" src="jqscripts.js"></script>
+
+</head>
+<body>
+
+<div class="whiteFade"></div>
+
+<div id="vol">
+  
+  <img id="volumeThing" src="pics/volume.png" alt="speaker thing idk"
+  onclick="mute()">
+
+  <img id="muteThing" src="pics/volumemuted.png" alt="mute lol"
+  onclick="unmute()">
+
+</div>
+
+<div id="welcome">
+
+  <img id="city" src="pics/city.jpg" alt="city">
+
+  <div id="divArrow" onclick="help()">
+    <img id="arrow" src="pics/arrow.png" alt="city">
+  </div>
+
+  <div id="wText">Welcome</div>
+  <div id="xText">To My Senior Project</div>
+  <div id="yText">FQ: What does it take to make a multiplayer game on a website?</div>
+
+</div>
+
+<div id="part0">
+  
+  <div id="left">
+
+  <font color="white">
+  <div id="zText">Why I chose this</div>
+
+  <div id="dText"> Before senior project was even announced I already knew that I wanted to do something related to programming. I discovered programming in 7th grade by taking a short two week class on Khan Academy. I thought it was pretty interesting so I bought a few introductory coding books, watched many tutorials, went through some self-teaching coding websites (Codecademy, Codeschool, TheOdinProject) participated in some online college courses on the subject.</div>
+  </font>
+  </div>
+
+  <div id="right">
+    
+  <img id="khan" src="pics/khan.jpg" alt="khan">
+
+  </div>
+
+  <div id="divArrow" onclick="help1()">
+    <img id="arrow1" src="pics/arrow.png" alt="city">
+  </div>
+
+</div>
+
+<div id="part3">
+    <div id="left">
+       <iframe width="560" height="315" src="https://www.youtube.com/embed/FCMxA3m_Imc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    </div>
+    <div id="right">
+      <div id="zText">But What Is Programming?</div>
+      <div id="dText">It's a way for people to communicate with computers. Almost every digital electronic has some programming in it. </div>
+      <div class="halfCircle"></div>
+    </div>
+
+
+  <div id="divArrow" onclick="help2()">
+    <img id="arrow1" src="pics/arrow.png" alt="city">
+  </div>
+</div>
+
+<div id="part4">
+    <div id="left">
+      <div id="zText">The Project</div>
+      <div id="dText"> My original idea was to make a multiplayer tetris game with like a chat box and other cool features but I'm dumb and couldn't figure out how to do it. </div>
+    </div>
+    <div id="right">
+      
+      <img id="tetirs" src="pics/tetrislmao.gif" alt="cucked">
+
+    </div>
+  <div id="divArrow" onclick="help3()">
+    <img id="arrow1" src="pics/arrow.png" alt="city">
+  </div>
+</div>
+
+<div id="part5">
+  <div id="right">
+    
+    <div id="zText">Problems</div>
+    <div id="dText">
+      <ul>
+        <li>Finding a mentor and people to interview</li>
+        <li>Finding a good place for my visitation. None of the places I wanted to go accepted visitors.</li>
+        <li>Figuring out what to put on these "slides"</li>
+        <li>Wondering whether or not the website would work on the school chromebooks/computers</li>
+      </ul>
+    </div>
+
+  </div>
+  <div id="left">
+    
+    <div id="zText">Stuff I learned</div>
+
+    <ul>
+    <div id="dText"> 
+      <li> I learned a lot more about programming during this project.</li>
+      <li> I also learned how to manage my time more efficiently.
+      </li>
+      <li> My writing seems to have improved.
+      </li>
+    </div>
+    </ul>
+  </div>
+
+  <div id="divArrow" onclick="help4()">
+    <img id="arrow1" src="pics/arrow.png" alt="city">
+  </div>
+
+</div>
+
+<div id="part6">
+  <div id="left">
+    
+    <div id="zText">The REAL Problem:</div>
+    <div id="dText">Before I started this project, I thought I knew a lot about programming. When I had the idea to make a multiplayer tetris website, I thought it would be fairly easy for me because I've been learning this kinda stuff for so long. What I really learned is that I suck at programming and I had no idea how to even start my project.</div>
+  </div>
+  <div id="right">
+    <div id="zText">I just suck</div>
+    <div id="dText">This senior project really helped me realize just how much of a beginner I still was. I found out that the best way to learn isn't to read books or watch youtube tutorials or go through many online courses. It's like trying to learn how to speak french without ever speaking french. The best way to learn is to start with an idea and try to make it. </div>
+
+  </div>
+
+  <div id="divArrow" onclick="help5()">
+    <img id="arrow1" src="pics/arrow.png" alt="city">
+  </div>
+
+</div>
+
+<div id="part2">
+    <div id="start" onclick="start()">Start</div>
+</div>
+
+<div id="container">
+    <div id="score"></div>
+    <canvas id="tetris" width="240" height="400"></canvas>
+    <script src="tetris.js"></script>
+</div>
+
+
+<div id="part1">
+    
+  <div class="fuck">All the code (Javascript/HTML/CSS)</div>
+
+</div>
+<div class="tex">
+  
+  <embed src="allthecode.txt">
+
+</div>
+
+</body>
+</html>
