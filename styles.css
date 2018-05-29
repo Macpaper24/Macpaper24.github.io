@@ -118,6 +118,12 @@ h1
   z-index: -1;
 }
 
+#divArrow
+{
+  display: table;
+  margin: 0 auto;
+}
+
 #arrow
 {
   opacity: 0.3;

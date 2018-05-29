@@ -22,7 +22,7 @@ function help2() {
     target_top = target_offset.top;
     $('html, body').animate({
         scrollTop: target_top
-    }, 1200);
+    }, 600);
 }
 
 function help3() {
